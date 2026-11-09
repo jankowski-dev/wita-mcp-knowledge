@@ -9,6 +9,8 @@ description: Критические особенности старого JS-API
 
 - Исходники скриптов **только ASCII** (движок читает CP1251); русские строки —
   через `\uXXXX`-экранирование в рантайме.
+  Контроль после правок:
+  `python -c "print(sum(1 for b in open(f,'rb').read() if b>127))"` → 0.
 - Старое API (v5-модулей нет). Доступны: `Model`, `Action`, `NewButtonInput`,
   `NewButtMaterialInput`, `AddFrontPanel/AddHorizPanel/AddVertPanel`,
   `DeleteObject`, `OpenFurniture`, `BeginBlock/EndBlock`, `require('fs')`, `system`.
