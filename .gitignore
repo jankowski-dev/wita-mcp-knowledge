@@ -4,3 +4,4 @@ Thumbs.db
 node_modules/
 kb/index/
 kb-server/.cache/
+kb/sources/local-docs/

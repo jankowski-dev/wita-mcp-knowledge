@@ -50,13 +50,16 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 ```powershell
 cd kb-server
 npm install
+node fetch-docs.js
 npm run index
 ```
 
+- `fetch-docs.js` скачивает официальные руководства БАЗИС (PDF/HTML) и статью
+  SAPR.ru в `kb/sources/local-docs/` (локально, в `.gitignore`).
 - Модель: `Xenova/multilingual-e5-small` (русский поддерживается), скачивается
   один раз ~120 МБ, дальше офлайн.
 - Индексируется: `skills/` + `kb/sources/` (каталог фурнитуры, глоссарий, FAQ,
-  кейс шкафа) + дополнительные каталоги через `--extra`.
+  кейс шкафа, официальные руководства) + дополнительные каталоги через `--extra`.
 - MCP-инструменты: `kb_search(query, topK)`, `kb_stats()`.
 - Подключение — сервер `kb` в `opencode.json`; подробности в `kb-server/README.md`.
 

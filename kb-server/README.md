@@ -9,8 +9,21 @@
 ```powershell
 cd kb-server
 npm install
+node fetch-docs.js     # официальные руководства БАЗИС (PDF/HTML) -> kb/sources/local-docs
 npm run index
 ```
+
+`fetch-docs.js` скачивает и конвертирует в текст:
+
+| Документ | Источник |
+|---|---|
+| Работа со скриптами (руководство, 2021) | cdn.bazissoft.ru/documentation/ru/Script.pdf |
+| Примеры API (HTML) | cdn.bazissoft.ru/documentation/ru/BAZIS-Script_examples.html |
+| Полное руководство БАЗИС-Мебельщик (2024) | cdn.bazissoft.ru/documentation/ru/Bazis.pdf |
+| Статья SAPR.ru «JavaScript — эффективный инструмент…» | sapr.ru/article/24419 |
+
+> Документы разработчика скачиваются из официальных источников и хранятся
+> локально в `kb/sources/local-docs/` — в `.gitignore` (не публикуются в репозитории).
 
 Индексируются каталоги из `kb/kb.config.json`:
 
