@@ -1,0 +1,8 @@
+{
+  "sources": ["skills", "kb/sources"],
+  "chunkSize": 700,
+  "overlap": 150,
+  "model": "Xenova/multilingual-e5-small",
+  "queryPrefix": "query: ",
+  "passagePrefix": "passage: "
+}
