@@ -28,8 +28,8 @@
 | Рецепт шкафа | `wardrobe-generator` | ✅ есть |
 | Материалы + кромка | `materials-edging` | 🆕 P1 |
 | Фурнитура + крепёж + присадка | `hardware-fasteners` | 🆕 P1 |
-| Кухни | `kitchen-design` | 🆕 P2 |
-| Ящики | `drawer-design` | 🆕 P2/P3 |
+| Кухни | `kitchen-design` | ✅ создан (черновик) |
+| Ящики | `drawer-design` | ✅ создан (черновик) |
 | Двери/петли/фасады | `door-design` | 🆕 P3 |
 | Шкафы (дизайн, не рецепт) | `wardrobe-design` | 🆕 P3 |
 | Производство + документация (СТП) | `production-docs` | 🆕 P4 |
