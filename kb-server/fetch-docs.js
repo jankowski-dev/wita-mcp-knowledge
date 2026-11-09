@@ -34,6 +34,30 @@ const DOCS = [
     type: "html",
     title: "JavaScript — эффективный инструмент параметрического проектирования (sapr.ru)",
   },
+  {
+    name: "gtv-encyclopedia-2018.txt",
+    url: "https://gtv-meridian.ru/catalog/%D0%AD%D0%BD%D1%86%D0%B8%D0%BA%D0%BB%D0%BE%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D1%84%D1%83%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80%D1%8B_GTV_2018.pdf",
+    type: "pdf",
+    title: "GTV. Энциклопедия фурнитуры (технический каталог 2018)",
+  },
+  {
+    name: "gtv-guides-2024.txt",
+    url: "https://gtv.com.pl/wp-content/uploads/2024/07/GTV-%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%B5.pdf",
+    type: "pdf",
+    title: "GTV. Направляющие для выдвижных ящиков (каталог 2024)",
+  },
+  {
+    name: "blum-hinges-2024.txt",
+    url: "https://publications.blum.com/2024/catalogue/ru/119/",
+    type: "html",
+    title: "Blum. Каталог и техническое руководство 2024-2025: системы петель",
+  },
+  {
+    name: "aks-hinges.txt",
+    url: "https://aksmebel.ru/mekhanizmy-dlya-otkryvaniya-fasadov/petli-mebelnye/",
+    type: "html",
+    title: "AKS. Петли мебельные — технический раздел каталога",
+  },
 ];
 
 function htmlToText(html) {
